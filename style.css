@@ -1,0 +1,145 @@
+/* Fondo con degradado elegante azul y negro */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    135deg,
+    #001f3f,
+    #000000
+  ); /* Degradado azul a negro */
+  color: #ccc; /* Texto en gris claro */
+  line-height: 1.6;
+}
+
+/* Estilo del header */
+header {
+  background: rgba(0, 0, 0, 0.7); /* Fondo negro con transparencia */
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Sección Promociones */
+.promo {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: rgba(0, 51, 102, 0.9); /* Azul oscuro con transparencia */
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.promo-card p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.promo-card span {
+  color: #00ccff; /* Azul claro */
+  font-size: 1.4rem;
+}
+
+/* Servicios */
+.services {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: rgba(0, 51, 102, 0.9); /* Azul oscuro con transparencia */
+  border-radius: 10px;
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.services h2 {
+  margin-bottom: 1rem;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.service {
+  background: rgba(0, 0, 51, 0.9); /* Azul muy oscuro con transparencia */
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 255, 255, 0.5);
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+/* Sección Pasos */
+.steps {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 51, 0.9); /* Azul muy oscuro con transparencia */
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.steps ol {
+  text-align: left;
+  margin: 1rem auto;
+  padding-left: 2rem;
+}
+
+.steps ol li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.action-button {
+  background: #0066cc; /* Azul brillante */
+  color: white;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.action-button:hover {
+  background: #00ccff; /* Azul claro */
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 51, 0.9); /* Azul oscuro con transparencia */
+  color: #ccc;
+  margin-top: 2rem;
+}
